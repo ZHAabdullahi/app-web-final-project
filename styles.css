@@ -242,6 +242,9 @@ text-decoration: none;
     text-align: center;
     width:100%;
     font-size: 25px;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
     background: url('https://img.freepik.com/free-photo/brown-texture_1253-165.jpg');
 }
   
