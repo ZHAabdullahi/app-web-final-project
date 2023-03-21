@@ -10,25 +10,19 @@
     <style>
     body{
         background: url('https://i.pngimg.me/thumb/f/720/f73b6f24223646e4aa54.jpg');
-        background-repeat: no-repeat;
+        background-repeat: repeat-y;
         background-position: center;
         background-size: cover;
-        height: 100vh;
-        width: 100%;
     }
     .gallery-contanier{
-        position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 75%;
-    height: 550px;
-    margin-top: 20px;
-    background: url('https://img.freepik.com/free-photo/brown-texture_1253-165.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
+       width:75%;
+       margin-right:auto;
+       margin-left: auto;
+       margin-top: 8%;
+        background: url('https://img.freepik.com/free-photo/brown-texture_1253-165.jpg');
+        border-radius: 20px;
+
+        margin-bottom: 00px;
     }
     .gallery-contanier h1{
         text-align: center;
@@ -39,27 +33,32 @@
     .gallery-row{
         display: flex;
         justify-content: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .gallery-img{
         width: 200px;
-        padding: 20px;
-        margin: 20px;
-        border: 2px solid black;
-        background-color: #f5d3d3;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid black;
+        background-color: #f5d3d3 ;
         position: relative;
     }
     .gallery-img img{
-        width: 126px;
+        width: 162px;
         height: 126px;
        object-fit: cover;
+       margin-left: auto;
+       margin-right: auto;
    
     }
     .gallery-img .handmade-crafts-name{
     position: absolute;
-    width: 166px;
+    width: 190px;
     padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(87, 79, 79, 0.7);
     bottom: 0;
     left: 0;
       visibility: hidden;
@@ -76,13 +75,6 @@
   .gallery-img:hover .handmade-crafts-name{
     visibility: visible;
 }
-  .footer {
-     color: black;
-     padding: 10px 0;
-     text-align: center;
-     font-size: 25px;
-    background: url('https://img.freepik.com/free-photo/brown-texture_1253-165.jpg');
- }
     
     </style>
 </head>
@@ -90,115 +82,341 @@
     <header class="header">
         <nav class="nav_bar">
             <a href="index.html"><i style="font-size:24px" class="fa">&#xf015;</i>Home</a>
-            <a href="about.html"><i style='font-size:24px' class='fas'>&#xf518;</i>About</a>
+            <a href="about.html"><i style="font-size:24px" class="fa">&#xf02d;</i>About</a>
             <a href="gallery.html"><i style="font-size:24px" class="fa">&#xf03e;</i>Gallery</a> 
             <a href="contect.html"><i style="font-size:24px" class="fa">&#xf095;</i>Contact</a>
         </nav>
         <form action="" class="search-bar">
             <input type="text" placeholder="Search the issue...">
-            <button><img src="search icon.png"></button>
+            <button><img src="images/search icon.png" alt="search icon"></button>
         </form>
     </header>
         <div class="gallery-contanier">
                  <h1>Gallery</h1>
            <div class="gallery-row">
                  <div class="gallery-img">
-                    <img src="images/" alt="Handmade Crochet Crafts">
+                    <img src="images/gallery1.jpg" alt="Handmade Crochet Crafts">
                      <div class="handmade-crafts-name">
-                        <h2>#1 Handmade Crochet Crafts</h2>
+                        <h2>#1 Handmade Crochet Crafts doll</h2>
                      </div>
                  </div>
-                 <div class="images/gallery-img">
-                    <img src="gallery2.jpg" alt="Handmade Crochet Crafts">
+                 <div class="gallery-img">
+                    <img src="images/gallery2.jpg" alt="Handmade Crochet Crafts">
                      <div class="handmade-crafts-name">
-                        <h2>#2 Handmade Crochet Crafts</h2>
+                        <h2>#2 Handmade Crochet Crafts doll</h2>
                      </div>
                  </div>
-                 <div class="images/gallery-img">
-                    <img src="gallery3.jpg" alt="Handmade Crochet Crafts">
+                 <div class="gallery-img">
+                    <img src="images/gallery3.jpg" alt="Handmade Crochet Crafts">
                      <div class="handmade-crafts-name">
-                        <h2>#3 Handmade Crochet Crafts</h2>
+                        <h2>#3 Handmade Crochet Crafts doll</h2>
                      </div>
                  </div>
-                 <div class="images/gallery-img">
-                    <img src="gallery4.jpg" alt="Handmade Crochet Crafts">
+                 <div class="gallery-img">
+                    <img src="images/gallery4.jpg" alt="Handmade Crochet Crafts">
                      <div class="handmade-crafts-name">
-                        <h2>#4 Handmade Crochet Crafts</h2>
+                        <h2>#4 Handmade Crochet Crafts doll</h2>
                      </div>
                  </div>
-                 <div class="images/gallery-img">
-                    <img src="gallery5.jpg" alt="Handmade Crochet Crafts">
+                 <div class="gallery-img">
+                    <img src="images/gallery5.jpg" alt="Handmade Crochet Crafts">
                      <div class="handmade-crafts-name">
-                        <h2>#5 Handmade Crochet Crafts</h2>
+                        <h2>#5 Handmade Crochet Crafts doll</h2>
                      </div>
                  </div>
             </div>
-            <div class="images/gallery-row">
+            <div class="gallery-row">
                 <div class="gallery-img">
-                   <img src="gallery6.jpg" alt="Handmade Crochet Crafts">
+                   <img src="images/gallery6.jpg" alt="Handmade Crochet Crafts">
                     <div class="handmade-crafts-name">
-                       <h2>#6 Handmade Crochet Crafts</h2>
+                       <h2>#6 Handmade Crochet Crafts doll</h2>
                     </div>
                 </div>
-                <div class="images/gallery-img">
-                   <img src="gallery7.jpg" alt="Handmade Crochet Crafts">
+                <div class="gallery-img">
+                   <img src="images/gallery7.jpg" alt="Handmade Crochet Crafts">
                     <div class="handmade-crafts-name">
-                       <h2>#7 Handmade Crochet Crafts</h2>
+                       <h2>#7 Handmade Crochet Crafts doll</h2>
                     </div>
                 </div>
-                <div class="images/gallery-img">
-                   <img src="gallery8.jpg" alt="Handmade Crochet Crafts">
+                <div class="gallery-img">
+                   <img src="images/gallery8.jpg" alt="Handmade Crochet Crafts">
                     <div class="handmade-crafts-name">
-                       <h2>#8 Handmade Crochet Crafts</h2>
+                       <h2>#8 Handmade Crochet Crafts doll</h2>
                     </div>
                 </div>
                 <div class="gallery-img">
                    <img src="images/gallery9.jpg" alt="Handmade Crochet Crafts">
                     <div class="handmade-crafts-name">
-                       <h2>#9 Handmade Crochet Crafts</h2>
+                       <h2>#9 Handmade Crochet Crafts doll</h2>
                     </div>
                 </div>
                 <div class="gallery-img">
-                   <img src="images/" alt="Handmade Crochet Crafts">
+                   <img src="images/gallery10.jpg" alt="Handmade Crochet Crafts">
                     <div class="handmade-crafts-name">
-                       <h2>#10 Handmade Crochet Crafts</h2>
+                       <h2>#10 Handmade Crochet Crafts doll</h2>
                     </div>
                 </div>
            </div>
            <div class="gallery-row">
                 <div class="gallery-img">
-                   <img src="gallery11.jpg" alt="Handmade Crochet Crafts">
+                   <img src="images/gallery11.jpg" alt="Handmade Crochet Crafts">
                    <div class="handmade-crafts-name">
-                   <h2>#11 Handmade Crochet Crafts</h2>
+                   <h2>#11 Handmade Crochet Crafts doll</h2>
                    </div>
                </div>
                 <div class="gallery-img">
-                   <img src="gallery12.jpg" alt="Handmade Crochet Crafts">
+                   <img src="images/gallery12.jpg" alt="Handmade Crochet Crafts">
                    <div class="handmade-crafts-name">
-                   <h2>#12 Handmade Crochet Crafts</h2>
+                   <h2>#12 Handmade Crochet Crafts doll</h2>
                    </div>
                 </div>
                <div class="gallery-img">
-                   <img src="gallery13.jpg" alt="Handmade Crochet Crafts">
+                   <img src="images/gallery13.jpg" alt="Handmade Crochet Crafts">
                    <div class="handmade-crafts-name">
-                   <h2>#13 Handmade Crochet Crafts</h2>
+                   <h2>#13 Handmade Crochet Crafts doll</h2>
                    </div>
                 </div>
                 <div class="gallery-img">
-                   <img src="gallery14.jpg" alt="Handmade Crochet Crafts">
+                   <img src="images/gallery14.jpg" alt="Handmade Crochet Crafts">
                    <div class="handmade-crafts-name">
-                   <h2>#14 Handmade Crochet Crafts</h2>
+                   <h2>#14 Handmade Crochet Crafts doll</h2>
                    </div>
                   </div>
                 <div class="gallery-img">
-                    <img src="gallery15.jpg" alt="Handmade Crochet Crafts">
+                    <img src="images/gallery15.jpg" alt="Handmade Crochet Crafts">
                     <div class="handmade-crafts-name">
-                   <h2>#15 Handmade Crochet Crafts</h2>
+                   <h2>#15 Handmade Crochet Crafts doll</h2>
                    </div>
                  </div>
             </div>
-            
+              <div class="gallery-row">
+                <div class="gallery-img">
+                   <img src="images/gallery16.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#16 Crochet Handbag</h2>
+                   </div>
+               </div>
+                <div class="gallery-img">
+                   <img src="images/gallery17.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#17 Crochet Handbag</h2>
+                   </div>
+                </div>
+               <div class="gallery-img">
+                   <img src="images/gallery18.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#18 Crochet Handbag</h2>
+                   </div>
+                </div>
+                <div class="gallery-img">
+                   <img src="images/gallery19.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#19 Crochet Handbag</h2>
+                   </div>
+                  </div>
+                <div class="gallery-img">
+                    <img src="images/gallery20.jpg" alt="Handmade Crochet Crafts">
+                    <div class="handmade-crafts-name">
+                   <h2>#20 Crochet Handbag</h2>
+                   </div>
+                 </div>
+            </div>
+            <div class="gallery-row">
+                <div class="gallery-img">
+                   <img src="images/gallery21.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#21 Crochet Handbag</h2>
+                   </div>
+               </div>
+                <div class="gallery-img">
+                   <img src="images/gallery22.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#22 Crochet Handbag</h2>
+                   </div>
+                </div>
+               <div class="gallery-img">
+                   <img src="images/gallery23.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#23 Crochet Handbag</h2>
+                   </div>
+                </div>
+                <div class="gallery-img">
+                   <img src="images/gallery24.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#24 Crochet Handbag</h2>
+                   </div>
+                  </div>
+                <div class="gallery-img">
+                    <img src="images/gallery25.jpg" alt="Handmade Crochet Crafts">
+                    <div class="handmade-crafts-name">
+                   <h2>#25 Crochet Handbag</h2>
+                   </div>
+                 </div>
+            </div>
+            <div class="gallery-row">
+                <div class="gallery-img">
+                   <img src="images/gallery26.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#26 Crochet Handbag</h2>
+                   </div>
+               </div>
+                <div class="gallery-img">
+                   <img src="images/gallery27.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#27 Crochet Handbag</h2>
+                   </div>
+                </div>
+               <div class="gallery-img">
+                   <img src="images/gallery28.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#28 Crochet Handbag</h2>
+                   </div>
+                </div>
+                <div class="gallery-img">
+                   <img src="images/gallery29.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#29 Crochet doll shirt for children</h2>
+                   </div>
+                  </div>
+                <div class="gallery-img">
+                    <img src="images/gallery30.jpg" alt="Handmade Crochet Crafts">
+                    <div class="handmade-crafts-name">
+                   <h2>#30 Crochet doll shirt for children</h2>
+                   </div>
+                 </div>
+            </div>
+            <div class="gallery-row">
+                <div class="gallery-img">
+                   <img src="images/gallery31.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#31 Crochet doll shirt for children</h2>
+                   </div>
+               </div>
+                <div class="gallery-img">
+                   <img src="images/gallery32.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#32 Crochet doll shirt for children</h2>
+                   </div>
+                </div>
+               <div class="gallery-img">
+                   <img src="images/gallery33.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#33  Crochet Handbag</h2>
+                   </div>
+                </div>
+                <div class="gallery-img">
+                   <img src="images/gallery34.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#34 Crochet doll shirt for woman</h2>
+                   </div>
+                  </div>
+                <div class="gallery-img">
+                    <img src="images/gallery35.jpg" alt="Handmade Crochet Crafts">
+                    <div class="handmade-crafts-name">
+                   <h2>#35 Crochet doll shirt for children</h2>
+                   </div>
+                 </div>
+            </div>
+            <div class="gallery-row">
+                <div class="gallery-img">
+                   <img src="images/gallery36.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#36 Crochet Refrigeator</h2>
+                   </div>
+               </div>
+                <div class="gallery-img">
+                   <img src="images/gallery37.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#37 Crochet Soft cover</h2>
+                   </div>
+                </div>
+               <div class="gallery-img">
+                   <img src="images/gallery38.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#38 Crochet sleeping place for baby</h2>
+                   </div>
+                </div>
+                <div class="gallery-img">
+                   <img src="images/gallery39.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#39 Crochet doll shirt for children</h2>
+                   </div>
+                  </div>
+                <div class="gallery-img">
+                    <img src="images/gallery40.jpg" alt="Handmade Crochet Crafts">
+                    <div class="handmade-crafts-name">
+                   <h2>#40 Crochet Bedspread</h2>
+                   </div>
+                 </div>
+            </div>
+            <div class="gallery-row">
+                <div class="gallery-img">
+                   <img src="images/gallery41.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#41 Crochet Bedspread</h2>
+                   </div>
+               </div>
+                <div class="gallery-img">
+                   <img src="images/gallery42.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#42 Crochet Robbit</h2>
+                   </div>
+                </div>
+               <div class="gallery-img">
+                   <img src="images/gallery43.png" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#43 Crochet Curtain Hanger</h2>
+                   </div>
+                </div>
+                <div class="gallery-img">
+                   <img src="images/gallery44.png" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#44 Crochet Curtain Hanger</h2>
+                   </div>
+                  </div>
+                <div class="gallery-img">
+                    <img src="images/gallery45.png" alt="Handmade Crochet Crafts">
+                    <div class="handmade-crafts-name">
+                   <h2>#45 Crochet Curtain Hanger</h2>
+                   </div>
+                 </div>
+            </div>
+            <div class="gallery-row">
+                <div class="gallery-img">
+                   <img src="images/gallery46.png" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#46 Crochet Curtain Hanger</h2>
+                   </div>
+               </div>
+                <div class="gallery-img">
+                   <img src="images/gallery47.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#47 Crochet Curtain Hanger</h2>
+                   </div>
+                </div>
+               <div class="gallery-img">
+                   <img src="images/gallery48.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#48  Crochet sleeping place for baby</h2>
+                   </div>
+                </div>
+                <div class="gallery-img">
+                   <img src="images/gallery49.jpg" alt="Handmade Crochet Crafts">
+                   <div class="handmade-crafts-name">
+                   <h2>#49 Crochet Carpet</h2>
+                   </div>
+                  </div>
+                <div class="gallery-img">
+                    <img src="images/gallery50.jpg" alt="Handmade Crochet Crafts">
+                    <div class="handmade-crafts-name">
+                   <h2>#50 Crochet Swaddle for baby</h2>
+                   </div>
+                 </div>
+            </div>
         </div>
+        <div style="height: 100px; ">
+        
+    </div>
        <footer class="footer">
         Zahra Abdullahi  
       </footer>
